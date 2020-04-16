@@ -7,7 +7,7 @@
 
 html {
   font-size: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #eee;
   overflow-x: hidden;
 }
@@ -15,7 +15,7 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background: url("images/sitebg.jpg") no-repeat center fixed;
+  background: url("images/starry-sky-bg.jpg") no-repeat center fixed;
   background-size: cover;
 }
 
@@ -29,7 +29,7 @@ a {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
   font-weight: 300;
 }
@@ -105,7 +105,7 @@ header {
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background-color: #16162d;
+  background-color: #161817;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
   transition: all 650ms cubic-bezier(1,0,0,1);
@@ -125,14 +125,14 @@ li {
 }
 
 .nav-link {
-  font-family: "Raleway", sans-serif;
-  font-size: 5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 4rem;
   padding: 1rem;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  background: linear-gradient(to top, #ffe838, #fd57bf);
+  background: linear-gradient(to top, #75e6da, #05445e);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -162,7 +162,7 @@ li {
 }
 
 .bar {
-  background: linear-gradient(to right, #ffe838, #fd57bf);
+  background: linear-gradient(to right, #75e6da, #05445e);
   width: 100%;
   height: 4px;
   border-radius: .8rem;
@@ -203,8 +203,8 @@ li {
 
 .landing-text h1 {
   font-size: 15rem;
-  font-family: "Raleway", sans-serif;
-  background: linear-gradient(to top, #ffe838, #fd57bf );
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to top, #75e6da, #05445e);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -215,6 +215,10 @@ li {
 .landing-text h6 {
   font-size: 2rem;
   font-weight: 400;
+}
+
+.pipe {
+  color: #75e6da;
 }
 
 /*About Styling*/
@@ -297,15 +301,15 @@ li {
 .icon-container {
   width: 10rem;
   height: 10rem;
-  border: 3px solid #ffe838;
-  background-color: #fd57bf;
+  border: 3px solid#75e6da;
+  background-color:  #05445e;
   margin-bottom: 2rem;
   display: flex;
   transform: rotate(45deg);
 }
 
 .icon-container i {
-  color: #ffe838;
+  color: #eee;
   font-size: 5rem;
   margin: auto;
   transform: rotate(-45deg);
@@ -351,7 +355,7 @@ li {
   margin-top: 2.5rem;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: #3883ff;
+  color: #75e6da;
   transition: color 650ms;
 }
 
@@ -361,7 +365,7 @@ li {
 /*Timeline Styling*/
 
 .timeline ul {
-  border-left: 4px solid #ffe838;
+  border-left: 4px solid #05445e;
   border-radius: .8rem;
   background-color: rgba(0, 0, 0, 0.05);
   margin: 0 auto;
@@ -411,7 +415,7 @@ li {
 
 .timeline .date::after {
   content: "";
-  box-shadow: 0 0 0 4px #fd57bf;
+  box-shadow: 0 0 0 4px #75e6da;
   border-radius: 100%;
   left: -8rem;
   height: 1.5rem;
@@ -421,10 +425,6 @@ li {
 }
 
 /*Contact Styling*/
-
-.contact {
-  background-color: #221e3f;
-}
 
 form {
   width: 70%;
@@ -442,13 +442,13 @@ textarea {
   padding: 1rem;
   margin-bottom: 5px;
   border: none;
-  outline-color: #fd57bf;
+  outline-color: #75e6da;
 }
 
 input[type="submit"] {
   width: initial;
-  background-color: #fd57bf;
-  color: #eee;
+  background-color: #75e6da;
+  color: #05445e;
   padding: 1rem 2rem;
   border-radius: .8rem;
   cursor: pointer;
@@ -456,15 +456,14 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  color: #221e3f;
-  background-color: #ffe838;
+  color: #75e6da;
+  background-color: #05445e;
 }
 
 /*Footer Styling*/
 .copyright {
   width: 100%;
   text-align: center;
-  background-color: #16162d;
   padding: 2rem 0;
   position: relative;
 }
@@ -495,13 +494,13 @@ input[type="submit"]:hover {
 /*Animations*/
 @keyframes pulse {
   0%{
-    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+    box-shadow: 0 0 0 0  rgba(117, 230, 218, 0.99);
   }
   70%{
-    box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+    box-shadow: 0 0 0 2rem rgba(117, 230, 218, 0);
   }
   100%{
-    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+    box-shadow: 0 0 0 0 rgba(117, 230, 218, 0);
   }
 }
 
@@ -509,7 +508,6 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 768px) {
   body {
-    background: url("images/sitebg2.jpg") no-repeat center fixed;
     background-size: cover;
     overflow: hidden;
   }
