@@ -9,6 +9,7 @@ html {
   font-size: 10px;
   font-family: 'Raleway', sans-serif;
   color: #eee;
+  overflow-x: hidden;
 }
 
 body {
@@ -510,6 +511,7 @@ input[type="submit"]:hover {
   body {
     background: url("images/sitebg2.jpg") no-repeat center fixed;
     background-size: cover;
+    overflow: hidden;
   }
 
   .landing-text h1 {
