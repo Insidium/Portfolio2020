@@ -36,6 +36,7 @@ p {
 
 img {
   width: 100%;
+  border: #738fa7 solid 0.1rem;
 }
 
 /*Reusable Styling*/
