@@ -238,6 +238,10 @@ li {
   margin-right: 5rem;
 }
 
+.image-crop {
+  border-radius: 50%;
+}
+
 .about-details {
   flex: 1;
 }
@@ -501,6 +505,17 @@ input[type="submit"]:hover {
     overflow: hidden;
   }
 
+  li {
+    margin: 2rem 0;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
   .landing-text h1 {
     font-size: 15rem;
   }
@@ -511,10 +526,6 @@ input[type="submit"]:hover {
 
   .nav-list {
     flex-direction: column;
-  }
-
-  li {
-    margin: 2rem 0;
   }
 
   .nav-link {
@@ -560,6 +571,17 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
   .menu-toggler {
     top: 2rem;
     right: 2rem;
@@ -605,10 +627,6 @@ input[type="submit"]:hover {
 
   .timeline .date::before {
     font-size: 1.4rem;
-  }
-
-  form {
-    width: 100%;
   }
 
   .up {
