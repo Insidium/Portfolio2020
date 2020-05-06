@@ -240,6 +240,7 @@ li {
 
 .image-crop {
   border-radius: 50%;
+  width: 80%;
 }
 
 .about-details {
@@ -305,6 +306,22 @@ li {
   font-size: 5rem;
   margin: auto;
   transform: rotate(-45deg);
+}
+
+.fa-code:hover {
+  color: #6f5aac;
+}
+
+.fa-gem:hover {
+  color: #970c10;
+}
+
+.fa-js:hover {
+  color: #f0db4f;
+}
+
+.fa-chart-line:hover {
+  color: #10bc10;
 }
 
 /*Portfolio Styling*/
