@@ -7,7 +7,7 @@
 
 html {
   font-size: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #c3ceda;
   overflow-x: hidden;
 }
@@ -29,7 +29,7 @@ a {
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.8rem;
   font-weight: 300;
 }
@@ -63,7 +63,7 @@ img {
 }
 
 .section-heading h1::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -0.5rem;
   left: 50%;
@@ -118,7 +118,7 @@ li {
 }
 
 .nav-link {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 4rem;
   padding: 1rem;
 }
@@ -193,7 +193,7 @@ li {
 
 .landing-text h1 {
   font-size: 12rem;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #75e6da;
   padding: 1rem;
   user-select: none;
@@ -214,10 +214,10 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .about-heading {
-  text-align: center;
   text-transform: uppercase;
   line-height: 0;
   margin-bottom: 6rem;
@@ -443,7 +443,7 @@ li {
 }
 
 .timeline .date::after {
-  content: "";
+  content: '';
   box-shadow: 0 0 0 4px #75e6da;
   border-radius: 100%;
   left: -8rem;
@@ -473,7 +473,7 @@ textarea {
   outline-color: #75e6da;
 }
 
-input[type="submit"] {
+input[type='submit'] {
   width: initial;
   color: #75e6da;
   background-color: #071330;
@@ -484,7 +484,7 @@ input[type="submit"] {
   transition: background-color 650ms;
 }
 
-input[type="submit"]:hover {
+input[type='submit']:hover {
   background-color: #75e6da;
   color: #071330;
   border: #75e6da 0.1rem solid;
