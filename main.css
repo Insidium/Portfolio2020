@@ -308,8 +308,8 @@ li {
   transform: rotate(-45deg);
 }
 
-.fa-code:hover {
-  color: #6f5aac;
+.fa-html5:hover {
+  color: #e96228;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
     0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
     0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
@@ -317,8 +317,8 @@ li {
     0 0 80px rgba(66, 220, 219, 0.5);
 }
 
-.fa-pencil-ruler:hover {
-  color: rgb(245, 145, 31);
+.fa-css3-alt:hover {
+  color: #28a4d8;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
     0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
     0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
@@ -326,13 +326,41 @@ li {
     0 0 80px rgba(66, 220, 219, 0.5);
 }
 
-.fa-chart-line:hover {
-  color: #0baf0b;
+.fa-sass:hover {
+  color: #ce6b9e;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
     0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
     0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
     0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
     0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.fa-js:hover {
+  color: #e9d44d;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.fa-gem:hover {
+  color: #a51401;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.technologies {
+  margin-top: 10rem;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
 }
 
 /*Portfolio Styling*/
