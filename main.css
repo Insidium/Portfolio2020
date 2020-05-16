@@ -353,9 +353,36 @@ li {
     0 0 80px rgba(66, 220, 219, 0.5);
 }
 
+.fa-database:hover {
+  color: #319f3d;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.fa-react:hover {
+  color: #5ed3f3;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.fa-node-js:hover {
+  color: #8cbf3d;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
 .technologies {
   margin-top: 10rem;
-  font-size: 4rem;
+  font-size: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -473,7 +500,34 @@ li {
 
 /*Contact Styling*/
 
-form {
+.memoji2 {
+  border-radius: 50%;
+  margin: 3rem 0rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-btn {
+  width: initial;
+  font-size: 2rem;
+  color: #75e6da;
+  background-color: #071330;
+  padding: 2rem 4rem;
+  border: #75e6da 0.1rem solid;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: background-color 650ms;
+}
+
+.contact-btn:hover {
+  background-color: #75e6da;
+  color: #071330;
+  border: #75e6da 0.1rem solid;
+}
+
+/* form {
   width: 70%;
   margin: 0 auto;
 }
@@ -507,7 +561,7 @@ input[type='submit']:hover {
   background-color: #75e6da;
   color: #071330;
   border: #75e6da 0.1rem solid;
-}
+} */
 
 /*Footer Styling*/
 .copyright {
@@ -611,6 +665,10 @@ input[type='submit']:hover {
 
   .icon-container i {
     font-size: 4rem;
+  }
+
+  .technologies {
+    flex-direction: column;
   }
 
   .timeline ul {
