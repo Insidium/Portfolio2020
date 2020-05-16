@@ -39,13 +39,6 @@ img {
   border: #738fa7 solid 0.1rem;
 }
 
-li {
-  list-style: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 300;
-}
-
 /*Reusable Styling*/
 .container {
   width: 90%;
