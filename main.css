@@ -394,7 +394,7 @@ li {
 .tech-icon2 {
 	display: inline-block;
 	letter-spacing: 2rem;
-	margin: 2rem;
+	margin: 2rem 0rem;
 	display: flex;
 	flex-wrap: row wrap;
 }
