@@ -14,7 +14,7 @@ $(document).ready(function () {
 			{
 				scrollTop: $($(this).attr('href')).offset().top - 100,
 			},
-			1200
+			1000
 		);
 	});
 
@@ -23,7 +23,7 @@ $(document).ready(function () {
 			{
 				scrollTop: 0,
 			},
-			1200
+			600
 		);
 	});
 
