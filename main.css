@@ -507,6 +507,13 @@ li {
 	background-color: #738fa7;
 }
 
+.cv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4rem;
+}
+
 /*Contact Styling*/
 
 .memoji2 {
@@ -535,42 +542,6 @@ li {
 	color: #071330;
 	border: #75e6da 0.1rem solid;
 }
-
-/* form {
-  width: 70%;
-  margin: 0 auto;
-}
-
-form label {
-  font-size: 1.5rem;
-}
-
-input,
-select,
-textarea {
-  width: 100%;
-  padding: 1rem;
-  margin-bottom: 5px;
-  border: none;
-  outline-color: #75e6da;
-}
-
-input[type='submit'] {
-  width: initial;
-  color: #75e6da;
-  background-color: #071330;
-  padding: 1rem 2rem;
-  border: #75e6da 0.1rem solid;
-  border-radius: 0.8rem;
-  cursor: pointer;
-  transition: background-color 650ms;
-}
-
-input[type='submit']:hover {
-  background-color: #75e6da;
-  color: #071330;
-  border: #75e6da 0.1rem solid;
-} */
 
 /*Footer Styling*/
 .copyright {
