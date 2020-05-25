@@ -616,7 +616,7 @@ li {
 	}
 
 	.nav-list {
-		flex-direction: column;
+		flex-flow: column wrap;
 	}
 
 	.nav-link {
