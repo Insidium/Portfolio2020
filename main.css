@@ -589,7 +589,8 @@ li {
 
 /*Media Queries*/
 
-@media screen and (max-width: 768px) {
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	body {
 		background-size: cover;
 		overflow: hidden;
@@ -664,7 +665,13 @@ li {
 	}
 }
 
-@media screen and (max-width: 600px) {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
+	body {
+		background-size: cover;
+		overflow: hidden;
+	}
+
 	form {
 		width: 100%;
 	}
@@ -698,6 +705,7 @@ li {
 	}
 
 	.profile-img {
+		width: 50%;
 		margin: 0 0 7rem 0;
 	}
 
