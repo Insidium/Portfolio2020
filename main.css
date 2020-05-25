@@ -589,7 +589,7 @@ li {
 
 /*Media Queries*/
 
-/* iPads (portrait and landscape) ----------- */
+/* iPads and up (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	body {
 		background-size: cover;
@@ -711,6 +711,10 @@ li {
 	.profile-img {
 		width: 50%;
 		margin: 0 0 7rem 0;
+	}
+
+	.technologies {
+		flex-flow: row wrap;
 	}
 
 	.portfolio-item {
