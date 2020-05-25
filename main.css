@@ -666,7 +666,7 @@ li {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 812	px) {
 	body {
 		background-size: cover;
 		overflow: hidden;
@@ -686,6 +686,10 @@ li {
 	.menu-toggler {
 		top: 2rem;
 		right: 2rem;
+	}
+
+	.top-nav .nav-list {
+		flex-direction: column;
 	}
 
 	.landing-text h1 {
