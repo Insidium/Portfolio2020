@@ -89,7 +89,7 @@ img {
 /*Header Styling*/
 header {
 	width: 100%;
-	height: 80vh;
+	height: 100vh;
 }
 
 .top-nav {
@@ -451,6 +451,7 @@ li {
 		0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
 		0 0 80px rgba(66, 220, 219, 0.5);
 }
+
 /*Timeline Styling*/
 
 .timeline ul {
@@ -584,9 +585,11 @@ li {
 	0% {
 		box-shadow: 0 0 0 0 rgba(117, 230, 218, 0.99);
 	}
+
 	70% {
 		box-shadow: 0 0 0 2rem rgba(117, 230, 218, 0);
 	}
+
 	100% {
 		box-shadow: 0 0 0 0 rgba(117, 230, 218, 0);
 	}
