@@ -639,6 +639,11 @@ li {
 		font-size: 3rem;
 	}
 
+	.image-crop {
+		border-radius: 50%;
+		width: 100%;
+	}
+
 	.about-details .nav-list {
 		flex-direction: initial;
 	}
@@ -719,6 +724,11 @@ li {
 	.profile-img {
 		width: 50%;
 		margin: 0 0 7rem 0;
+	}
+
+	.image-crop {
+		border-radius: 50%;
+		width: 100%;
 	}
 
 	.technologies {
